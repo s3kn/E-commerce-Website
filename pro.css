@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100%;
+    line-height: 1.6;
+    background-color: #f7b267;
+   
+   
+}
+
+.header{
+    background-color: #f4845f;
+    padding: 1rem;
+    
+
+}
+
+.header-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.main-nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-nav ul{
+    max-width: 1200px;
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    
+}
+.main-nav ul li{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-nav a{
+    
+    text-decoration: none;
+        padding: 0.5rem, 1rem;
+        display: flex;
+        justify-content: space-evenly;
+}
+.main-nav a:hover{
+    color: #f25c54;
+}
+
+
+/* .search-bar{
+    
+    
+} */
+.hero{
+    background: url(./images/hero\ section.jpg); opacity: 0.8; 
+    background-color: #f4845f;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    color: #f4845f;
+    text-emphasis: centre;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100%;
+}
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.hero p{
+    display: flex;
+    justify-content: center;
+}
+.featured-products{
+    text-align: center;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    margin-bottom: 2rem;
+
+}
+.owl-carousel .item {
+    height: 10rem;
+    /* background: #f04124; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: #fff;
+}
+.ul, li{
+    list-style-type: none;
+    text-align: center;
+    padding-right: 11px;
+    
+}
+
+
+
+
+
+
